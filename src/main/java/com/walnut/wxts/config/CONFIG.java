@@ -8,7 +8,7 @@ import java.util.Map;
 public interface CONFIG {
 
     //推送人员id
-    List<String> touserids = new ArrayList<String>(3){{
+    List<String> touserids = new ArrayList<String>(){{
         add("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
         add("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
     }};
